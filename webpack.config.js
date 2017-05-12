@@ -37,5 +37,8 @@ module.exports = {
             warnings: true,
             errors: true
         }
-    }
+    },	
+	plugins: [
+		process.env.NODE_ENV=="production"?new webpack.optimize.UglifyJsPlugin():()=>{}
+    ]
 }
