@@ -14,7 +14,7 @@
 ## 使用
 
 ```
-git clone git@github.com:GaryChangCN/react-webpack-typescript.git
+git clone git@github.com:GaryChangCN/react-webpack-typescript-cli.git
 yarn install
 yarn run dev //开发环境
 yarn run build //生产环境
