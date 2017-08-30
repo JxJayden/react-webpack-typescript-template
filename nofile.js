@@ -41,7 +41,7 @@ module.exports = (task, option) => {
         })
     })
 
-    task('production', ['tsc-p'], 'production build', (opt) => {
+    task('production, build', ['tsc-p'], 'production build', (opt) => {
         kit.spawn('./node_modules/webpack/bin/webpack.js', [
             '--progress',
             '--env',
