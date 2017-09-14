@@ -35,7 +35,8 @@ module.exports = (task, option) => {
         kit.spawn('./node_modules/webpack-dev-server/bin/webpack-dev-server.js', [
             '--progress',
             '--env',
-            opt.env
+            opt.env,
+            '--hot'
         ], {
             prefix: 'WEB | :green'
         })
