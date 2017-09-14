@@ -6,7 +6,7 @@ So it will be more faster than use ts-loader
 > dev
 
 ```bash
-     yarn run dev
+     npm run dev
 ```
 
 > production
@@ -14,7 +14,7 @@ So it will be more faster than use ts-loader
 will convert to es5 and minify
 
 ```bash
-    yarn run production
+    npm run production
 ```
 
 ## use ts-lodader
@@ -28,7 +28,7 @@ will convert to es5 and minify
 > dev
 
 ```bash
-     yarn run dev
+     npm run dev
 ```
 
 > production
@@ -36,5 +36,5 @@ will convert to es5 and minify
 will convert to es5 and minify
 
 ```bash
-    yarn run production
+    npm run production
 ```
