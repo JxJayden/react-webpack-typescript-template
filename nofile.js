@@ -36,7 +36,9 @@ module.exports = (task, option) => {
             '--progress',
             '--env',
             opt.env,
-            '--hot'
+            '--hot',
+            '--info',
+            'false'
         ], {
             prefix: 'WEB | :green'
         })
